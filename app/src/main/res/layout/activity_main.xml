@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/poppins"
+        android:text="Inicio de Sesión y Registro"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#f2f9f9"
+        android:textSize="34sp"
+        android:typeface="normal"
+        tools:ignore="HardcodedText,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btnIniciarSesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#92CACE"
+        android:fontFamily="@font/poppins"
+        android:insetLeft="20dp"
+        android:insetRight="20dp"
+        android:text="INICIAR SESION"
+        android:textColor="#f2f9f9"
+        tools:ignore="HardcodedText,TextContrastCheck,VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/btnCrearCuenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#92CACE"
+        android:fontFamily="@font/poppins"
+        android:insetLeft="20dp"
+        android:insetRight="20dp"
+        android:text="CREAR CUENTA"
+        android:textColor="#f2f9f9"
+        tools:ignore="HardcodedText,TextContrastCheck,VisualLintButtonSize" />
+</LinearLayout>

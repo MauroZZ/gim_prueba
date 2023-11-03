@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ddeff0"
+    tools:context=".IniciarSesion">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/poppins"
+        android:text="Iniciar Sesion"
+        android:textAlignment="center"
+        android:textColor="#325158"
+        android:textSize="34sp"
+        android:typeface="normal" />
+
+    <EditText
+        android:id="@+id/editTextRutM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="Ingrese su R.U.T"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/editTextClaveM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Ingrese su Clave"
+        android:inputType="numberPassword"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/btnIniciarSesionM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#92CACE"
+        android:fontFamily="@font/poppins"
+        android:insetLeft="20dp"
+        android:insetRight="20dp"
+        android:text="INGRESAR"
+        android:textColor="#356169" />
+
+    <Button
+        android:id="@+id/btnVolverS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#92CACE"
+        android:fontFamily="@font/poppins"
+        android:insetLeft="20dp"
+        android:insetRight="20dp"
+        android:text="VOLVER"
+        android:textColor="#356169" />
+
+</LinearLayout>
